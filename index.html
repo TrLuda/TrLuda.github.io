@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Game</title>
+</head>
+<body>
+    <nav class="menu"> 
+        <a href="/">battle space</a>
+        <button>about</button>
+        <button>controls</button>
+        <button>screenshots</button>
+        <button>play</button>
+    </nav>        
+    <section id="home" class="home">
+        <div>
+            <p>battle space</p>
+        </div>
+    </section>
+    <section id="about" class="visibility bg">
+        <div>
+            <article><br>
+                Battle space is the game in which the spaceship<br> must destroy all enemies.<br>
+                This game is built using: JavaScript and Phaser.<br>
+                Resolution of the game screen greater 1000 x 600.<br>
+                Play and win!
+            </article>
+        </div>        
+    </section>
+    <section id="controls" class="visibility bg" >
+        <h2>game control keys:</h2>
+        <ul>
+            <li>
+                <img src="./img/left.png">
+                <p> - move left</p>
+            </li>
+            <li>
+                <img src="./img/right.png">
+                <p> - move right</p>
+            </li>
+            <li>
+                <img src="./img/key_space.png">
+                <p> - shoot</p>
+            </li>
+        </ul>
+    </section>
+    <section id="screenshots" class="visibility screen bg">  
+        <img src="./img/screen2.png">
+        <img src="./img/screen1.png">
+        <img src="./img/screen3.png">
+        <img src="./img/screen4.png">
+    </section>
+    <section id="play" class="visibility"></section>
+    <script src="./node_modules/phaser-ce/build/phaser.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
